@@ -20,6 +20,9 @@ npm start
 
 
 
+##########################
+### MANUALLY CONFIGURE  ##
+##########################
 
 # disconnect npm run
 
@@ -282,7 +285,9 @@ gcloud compute backend-services update fancy-fe-frontend \
     --enable-cdn --global
 
 
-
+##########################
+### MANUALLY CONFIGURE  ##
+##########################
 
 
 export VM_NAME=
@@ -322,7 +327,6 @@ npm install && npm run-script build
 
 
 cd ~
-
 
 rm -rf monolith-to-microservices/*/node_modules
 gsutil -m cp -r monolith-to-microservices gs://fancy-store-$DEVSHELL_PROJECT_ID/
