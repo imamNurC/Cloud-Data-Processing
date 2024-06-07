@@ -22,7 +22,7 @@ export internal_net_tag=
 ```
 
 ```
-https://raw.githubusercontent.com/imamNurC/Securing-Cloud-Network/main/gcp-net.sh
+curl -LO https://raw.githubusercontent.com/imamNurC/Cloud-Data-Processing/main/Securing-Cloud-Network/gcp-net.sh
 chmod +x gcp-net.sh
 ./gcp-net.sh
 ```
