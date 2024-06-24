@@ -1,5 +1,5 @@
 
-export API_KEY=AIzaSyC2u32TJHFvX7mFFt7JFMa-0sO8NFbIi_I
+export API_KEY=""
 
 
 nano request.json
